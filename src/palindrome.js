@@ -9,5 +9,5 @@ function isPalindrome(word) {
   
     return true;
   }
-  console.log(isPalindrome('bananab'));
+  console.log(isPalindrome('bananab')); // не знаю существует ли такаое слово 
 console.log(isPalindrome('nurbol')); 
