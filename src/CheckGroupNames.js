@@ -1,5 +1,5 @@
 function checkGroupNames(arrGroups) {
-    let pattern = /^(FD|FM|FE)20\d{2}-\d{2}$/i;
+    let pattern = /^(FD|FM|FE|fe)20\d{2}-\d{1,2}$/;
   
     for (let i = 0; i < arrGroups.length; i++) {
       if (pattern.test(arrGroups[i])) {
